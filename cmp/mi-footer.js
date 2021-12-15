@@ -1,13 +1,13 @@
 class MiFooter
-  extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = /* html */
-      `<p>
+extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = /* html */
+            `<p>
         &copy; 2021
-        Ricardo Armando Machorro Reyes.
+        Ayala Perez Nelson Antonio
       </p>`;
-  }
+    }
 }
 
 customElements.define(
-  "mi-footer", MiFooter);
+    "mi-footer", MiFooter);
