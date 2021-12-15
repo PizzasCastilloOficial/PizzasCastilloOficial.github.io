@@ -74,7 +74,7 @@ function htmlFila(doc) {
         new URLSearchParams();
     parámetros.append("id", doc.id);
     return ( /* html */
-        `<li>
+        `<li style="text-align: center">
       <a class="fila" href=
   "sucursal.html?${parámetros}">
         <strong class="primario">
