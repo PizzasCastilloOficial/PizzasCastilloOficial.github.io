@@ -3,14 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,
-       initial-scale=1.0">
-    <title>Platillo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon-32x32.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Sucursal</title>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js">
     </script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js">
     </script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js">
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js">
     </script>
     <script src="js/init.js">
     </script>
@@ -18,55 +21,48 @@
     </script>
     <script type="module" src="cmp/mi-footer.js">
     </script>
-    <link rel="stylesheet" href="css/estilos.css">
+    <script type="module" src="cmp/mi-progreso.js">
+    </script>
 </head>
 
 <body>
     <form name="forma">
         <mi-nav></mi-nav>
-        <header>
-            <h1>PlatilloSucursal</h1>
-            <div class="herramientas">
-                <a href="sucursales.html">
-          Cancelar</a>
-                <button>Guardar</button>
-                <button name="eliminar" type="button">
-          Eliminar
-        </button>
-            </div>
-        </header>
+        <h1>PlatilloSucursal</h1>
+        <div class="herramientas">
+            <a href="sucursales.html">Cancelar</a>
+            <button>Guardar</button>
+            <button name="eliminar" type="button">Eliminar</button>
+        </div>
         <p>
             <label>
-        ID del Platillo
-        <input name="idSucursal"
-          type="text" required>
+                ID del Platillo
+                <input name="idSucursal"type="text" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                Nombre
+                <input name="nombre" type="text" required>
       </label>
         </p>
         <p>
             <label>
-        Nombre
-        <input name="nombre"
-          type="text" required>
-      </label>
+                Dirección
+                <input name="direccion" type="text" required>
+            </label>
         </p>
         <p>
             <label>
-        Dirección
-        <input name="direccion"
-          type="text" required>
-      </label>
+                Horario de apertura
+                <input name="hapertura" type="text" required>
+            </label>
         </p>
         <p>
             <label>
-            Horario de apertura
-        <input name="hapertura" type="text" required>
-      </label>
-        </p>
-        <p>
-            <label>
-            Horario de cierre
-        <input name="hcierre"type="text" required>
-        </label>
+                Horario de cierre
+                <input name="hcierre"type="text" required>
+            </label>
         </p>
         <mi-footer></mi-footer>
     </form>
