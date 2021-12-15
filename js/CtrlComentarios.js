@@ -152,9 +152,6 @@ function htmlFila(doc) {
       <span class="secundario">
         ${cod(data.texto)}
       </span>
-      <span class="secundario">
-        ${cod(data.timestamp)}
-      </span>
     </li>`);
 }
 

@@ -9,6 +9,11 @@
  */
 
 /**
+ * @typedef {Object} Sucursal
+ * @property {String} idSucursal
+ */
+
+/**
  * @typedef {Object} Usuario
  * @property {string[]} rolIds
  * @property {string} alumnoId
