@@ -8,11 +8,11 @@
  * servidor. */
 // @ts-ignore
 firebase.initializeApp({
-    apiKey: "AIzaSyCRcsxqmf1g8_0h82uz8247RYu_Qesaz7U",
-    authDomain: "alumnos3cv51naap-d8aca.firebaseapp.com",
-    projectId: "alumnos3cv51naap-d8aca",
-    storageBucket: "alumnos3cv51naap-d8aca.appspot.com",
-    messagingSenderId: "1098157329735",
-    appId: "1:1098157329735:web:5f87ef54c99818aa4f1062",
-    measurementId: "G-2TTJ5X6DPD"
+    apiKey: "AIzaSyCnLKNKNvc4XdEIWQWIQqZozdT3QscWYZY",
+    authDomain: "pizzascastillooficial-38d73.firebaseapp.com",
+    projectId: "pizzascastillooficial-38d73",
+    storageBucket: "pizzascastillooficial-38d73.appspot.com",
+    messagingSenderId: "644703039108",
+    appId: "1:644703039108:web:a4b3620727565ca6e6dcd1",
+    measurementId: "G-W0DPJRWMRP"
 });
