@@ -11,6 +11,12 @@ muestraSucursales() {
 }
 
 export function
+muestraEmpleados() {
+    location.href =
+        "empleados.html"
+}
+
+export function
 muestraUsuarios() {
     location.href =
         "usuarios.html";

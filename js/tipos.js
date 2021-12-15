@@ -14,6 +14,11 @@
  */
 
 /**
+ * @typedef {Object} Empleado
+ * @property {String} idEmpleado
+ */
+
+/**
  * @typedef {Object} Usuario
  * @property {string[]} rolIds
  * @property {string} alumnoId

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width,
        initial-scale=1.0">
     <title>
-        Platillo Nuevo
+        Empleado Nuevo
     </title>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
@@ -24,9 +24,9 @@
     <form name="forma">
         <mi-nav></mi-nav>
         <header>
-            <h1>Platillo Nuevo</h1>
+            <h1>Empleado Nuevo</h1>
             <div class="herramientas">
-                <a href="platillos.html">
+                <a href="empleados.html">
           Cancelar</a>
                 <button type="submit">
           Guardar
@@ -35,35 +35,37 @@
         </header>
         <p>
             <label>
-        ID del Platillo
-        <input name="idPlatillo"
-          type="text" required>
-      </label>
+                ID del Empleado
+                <input name="idEmpleado" type="text" required>
+            </label>
         </p>
         <p>
             <label>
-        Nombre
-        <input name="nombre"
-          type="text" required>
-      </label>
+                Nombre
+                <input name="nombre" type="text" required>
+            </label>
         </p>
         <p>
             <label>
-        Precio
-        <input name="precio"
-          type="text" required>
-      </label>
+                Sueldo
+                <input name="sueldo" type="text" required>
+            </label>
         </p>
         <p>
             <label>
-        Descripción
-        <input name="descripcion"
-          type="text" required>
-      </label>
+                Edad
+                <input name="edad" type="text" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                Día de descanso
+                <input name="descanso" type="text" required>
+            </label>
         </p>
         <mi-footer></mi-footer>
     </form>
-    <script type="module" src="js/CtrlPlatilloNuevo.js">
+    <script type="module" src="js/CtrlEmpleadoNuevo.js">
     </script>
 </body>
 
